@@ -10,6 +10,29 @@ button{
 	margin-left: 85.6%;
 }
 
+.menu ul{
+	background-color: #2849bf;
+	list-style: none;
+	margin: 0;
+}
+
+.menu ul li{
+	display: inline;
+}
+
+.menu ul li a{
+	display: inline-block;
+	padding: 18px 107px;
+	text-decoration: none;
+	color: #FFF;
+	font-size: 28px;
+}
+
+.menu ul li a:hover{
+	color: #888;
+	background-color: #173399;
+}
+
 textarea{
 	width: 380px;
 	float: right;
