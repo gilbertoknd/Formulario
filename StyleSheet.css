@@ -1,8 +1,8 @@
 table{
 	margin-bottom: 4%;
-	background-color: #421787;
+	background-color: #777;
 	color: white;
-	border-color: #172087;
+	border-color: #AAA;
 	border-style: outside;
 }
 
@@ -11,9 +11,10 @@ button{
 }
 
 .menu ul{
-	background-color: #999;
+	background-color: #888;
 	list-style: none;
 	margin: 0;
+	border: 5;
 }
 
 .menu ul li{
@@ -22,15 +23,15 @@ button{
 
 .menu ul li a{
 	display: inline-block;
-	padding: 18px 107px;
+	padding: 18px 70px;
 	text-decoration: none;
 	color: #FFF;
 	font-size: 28px;
 }
 
 .menu ul li a:hover{
-	color: #888;
-	background-color: #173399;
+	color: #CCC;
+	background-color: #777;
 }
 
 textarea{
@@ -46,7 +47,7 @@ legend{
 }
 
 label{
-	font-size: 18px;
+	font-size: 20px;
 	margin-left: 2%;
 }
 
@@ -60,12 +61,16 @@ label{
 
 body{
 	background-color: #FFF;
+	margin: 0;
 }
 
-#titulos{
+.titulos{
 	margin-top: 5%;
 	margin-bottom: 5%;
+}
 
+#titulohome{
+	margin-bottom: -4%;
 }
 
 img{
@@ -83,7 +88,9 @@ img{
 
 #lista{
 	margin-left: 82%;
-	padding-left: 1%;
+	list-style: none;
+	margin-bottom: -10%;
+	padding-bottom: -2%;
 	
 }
 
@@ -93,7 +100,7 @@ img{
 
 h1, h2, h3, p {
 	text-align: center;	
-	color: white;
+	color: #777;
 	font-family: arial;
 }
 
